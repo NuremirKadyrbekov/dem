@@ -1,0 +1,201 @@
+/* .main{
+    width: 100%;
+    height: 710px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #12172b;
+
+}
+.SearchBlock{
+width: 100%;
+height: 100px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+background-color: #123d57;
+
+}
+
+.SearchForm{
+    width: 400px;
+   
+}
+.Search{
+    cursor: pointer;
+    
+}
+.Book{
+
+}
+.ContainerBooks{
+  margin-top: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+  width: 1000px; 
+  overflow: scroll;
+  justify-content: center;
+}
+.ContainerBooks::-webkit-scrollbar{
+  display: none;
+}
+
+.Card {
+  margin: 10px;
+  width: 190px;
+  background: white;
+  padding: .4em;
+  border-radius: 6px;
+}
+
+.cardImage {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  height: 130px;
+  border-radius: 6px 6px 0 0;
+}
+.ImageBook{
+  width: 120px;
+}
+
+.cardImage:hover {
+  transform: scale(0.98);
+}
+
+.category {
+  text-transform: uppercase;
+  font-size: 0.7em;
+  font-weight: 600;
+  color: rgb(63, 121, 230);
+  padding: 10px 7px 0;
+}
+
+.category:hover {
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  color: rgb(88, 87, 87);
+  padding: 7px;
+}
+
+.heading:hover {
+  cursor: pointer;
+}
+
+.author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
+.name {
+  font-weight: 600;
+}
+
+.name:hover {
+  cursor: pointer;
+} */
+
+
+.main {
+  background-color: #2E1A47; /* Темно-фиолетовый фон */
+  color: #FFFFFF; /* Белый текст */
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.SearchBlock {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.SearchForm {
+  width: 100%;
+  max-width: 600px;
+}
+
+.SearchForm input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #D1C4E9; /* Светло-фиолетовая рамка */
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+
+.SearchForm button {
+  padding: 10px 20px;
+  background-color: #D1C4E9; /* Светло-фиолетовая кнопка */
+  border: none;
+  color: #2E1A47; /* Темно-фиолетовый текст */
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.ContainerBooks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.Card {
+  background-color: #766e6e85; /* Черный фон карточек */
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.Card:hover {
+  transform: translateY(-5px);
+}
+
+.CardImage img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.category {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #D1C4E9; /* Светло-фиолетовый текст */
+}
+
+.heading {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.author {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #FFFFFF; /* Белый текст */
+}
+
+.name {
+  color: #D1C4E9; /* Светло-фиолетовый текст */
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #D1C4E9; /* Светло-фиолетовая кнопка */
+  border: none;
+  color: #2E1A47; /* Темно-фиолетовый текст */
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #B39DDB; /* Более темный светло-фиолетовый при наведении */
+}
