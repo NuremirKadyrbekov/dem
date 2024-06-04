@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/NuremirKadyrbekov.github.io/dem/static/css/main.3bd6c565.css",
-    "main.js": "/NuremirKadyrbekov.github.io/dem/static/js/main.f8991558.js",
-    "static/media/1.png": "/NuremirKadyrbekov.github.io/dem/static/media/1.aaa10584dae10cfb01c2.png",
-    "index.html": "/NuremirKadyrbekov.github.io/dem/index.html",
-    "main.3bd6c565.css.map": "/NuremirKadyrbekov.github.io/dem/static/css/main.3bd6c565.css.map",
-    "main.f8991558.js.map": "/NuremirKadyrbekov.github.io/dem/static/js/main.f8991558.js.map"
+    "main.css": "/dem/static/css/main.3bd6c565.css",
+    "main.js": "/dem/static/js/main.2644f5b2.js",
+    "static/media/1.png": "/dem/static/media/1.aaa10584dae10cfb01c2.png",
+    "index.html": "/dem/index.html",
+    "main.3bd6c565.css.map": "/dem/static/css/main.3bd6c565.css.map",
+    "main.2644f5b2.js.map": "/dem/static/js/main.2644f5b2.js.map"
   },
   "entrypoints": [
     "static/css/main.3bd6c565.css",
-    "static/js/main.f8991558.js"
+    "static/js/main.2644f5b2.js"
   ]
 }
